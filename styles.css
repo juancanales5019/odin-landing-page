@@ -4,6 +4,7 @@ head {
 .flex-container {
     display: flex;
     flex-direction: column;
+    background-color: rgb(133, 133, 13);
 }
 .header {
     background-color: rgb(26, 26, 71);
@@ -84,6 +85,7 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: rgb(133, 133, 13);
 }
 .info-title {
     font-size: 24px;
