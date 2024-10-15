@@ -1,3 +1,6 @@
+head {
+    border-radius: 24px;
+}
 .flex-container {
     display: flex;
     flex-direction: column;
@@ -15,16 +18,18 @@
     font-size: 20px;
     font-weight: 900;
     color: beige;
-    margin-left: 20px;
+    margin-left: 50px;
 }
 .links {
     display: flex;
     gap: 12px;
     color: beige;
+    margin-right: 50px;
     
 }
 .link {
-    
+    text-decoration: none;
+    color: beige;
 }
 .container { 
     display: flex;
@@ -38,15 +43,17 @@
     color: beige;
     gap: 5px;
     padding: 0px;
+    margin-bottom: auto;
 }
 .flyer-content {
     display: flex;
     justify-items: center;
-    flex-direction: column;
+    flex-wrap: wrap;
     padding: 8px;
     border-radius: 7px;
     width: 50%;
-    height: 200px;
+    height: auto;
+    margin: auto;
 }
 .flyer-content-text {
     color:beige;
@@ -62,34 +69,103 @@ h1 {
 
 .flyer-content-button {
     border-radius: 12px;
-    align-self: end;
+    flex-grow: 0;
 }
 
 .flyer-image {
     flex-shrink: 0;
-    padding-right: 40px;
+    padding-right: 50px;
     max-width: 150px;
-    height: 200px;
+    height: auto;
     border-radius: 12px;
 }
 .info {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align
+    align-items: center;
 }
-.info-title {}
-.info-cards {}
-.card {}
-.quote {}
-.quote-content {}
-.quote-credit {}
-.cta {}
-.cta-content {}
-.cta-content-title {}
-.cta-content-text {}
-.cta-button {}
+.info-title {
+    font-size: 24px;
+    margin: 20px;
+    margin-top: 50px;
+    font-weight: 900;
+}
+.info-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.card-image {
+    width: 150px;
+    height: auto;
+    border-radius: 12px;
+
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    gap: 8px;
+}
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    height: auto;
+    background-color: rgb(121, 121, 168);
+    margin-top: 50px;
+}
+.quote-content {
+    padding: 20px;
+    margin: 10px;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.quote-credit {
+    font-size: 30px;
+    font-weight: 900;
+    padding: 20px;
+    margin-left: 40px;
+}
+.cta {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(17, 91, 121);
+    width: 75%;
+    align-self: center;
+}
+.cta-content {
+    width: 25%;
+}
+.cta-content-title {
+    font: 24px;
+    font-weight: 900;
+}
+.cta-content-text {
+    font-style: italic;
+}
+.cta-button {
+    border-radius: 7px;
+}
 .footer {
     margin-top: auto;
     background-color: aqua;
+    height: 50px;
+    justify-content: center;
+    align-content: center;
+    font-size: 24px;
+    font-weight: 900;
+    color: white;
+    background-color: rgb(26, 26, 71);
+    text-align: center;
 }
