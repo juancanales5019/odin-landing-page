@@ -1,0 +1,95 @@
+.flex-container {
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    background-color: rgb(26, 26, 71);
+    display: flex;
+    margin-top: 8px;
+    justify-content: space-between;
+    height: 40px;
+    padding: 8px;
+    align-items: center;
+}
+.header-logo {
+    font-size: 20px;
+    font-weight: 900;
+    color: beige;
+    margin-left: 20px;
+}
+.links {
+    display: flex;
+    gap: 12px;
+    color: beige;
+    
+}
+.link {
+    
+}
+.container { 
+    display: flex;
+    flex-direction: column;
+}
+.flyer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(26, 26, 71);
+    color: beige;
+    gap: 5px;
+    padding: 0px;
+}
+.flyer-content {
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    padding: 8px;
+    border-radius: 7px;
+    width: 50%;
+    height: 200px;
+}
+.flyer-content-text {
+    color:beige;
+    display: flex;
+    padding: 8px;
+    flex-direction: column;
+    align-items: center;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.flyer-content-button {
+    border-radius: 12px;
+    align-self: end;
+}
+
+.flyer-image {
+    flex-shrink: 0;
+    padding-right: 40px;
+    max-width: 150px;
+    height: 200px;
+    border-radius: 12px;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align
+}
+.info-title {}
+.info-cards {}
+.card {}
+.quote {}
+.quote-content {}
+.quote-credit {}
+.cta {}
+.cta-content {}
+.cta-content-title {}
+.cta-content-text {}
+.cta-button {}
+.footer {
+    margin-top: auto;
+    background-color: aqua;
+}
